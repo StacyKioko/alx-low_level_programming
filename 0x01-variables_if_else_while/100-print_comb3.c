@@ -3,23 +3,28 @@
 /**
  * main - Prints combination of numbers
  *
- * Return: Always (Success)
+ * Return: Always (Success}
  */
 int main(void)
 {
-	int i = 0;
+	int digit1, digit2;
 
-	while (i < 10)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		putchar(i + '0');
-	        if (i < 9)
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-			putchar(44);
-			putchar(32);
-		}
-		i++;
-	}
-		putchar('\n');
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
 
-		return (0);
+			if (digit1 == 8 && digit2 == 9)
+				continue;
+
+			putchar(',');
+			putchar(' ');
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
 }
