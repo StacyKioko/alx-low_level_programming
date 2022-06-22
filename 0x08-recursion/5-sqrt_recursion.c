@@ -8,7 +8,7 @@
  */
 int _sqrt_recursion(int n)
 {
-	return (halp(n, 1));
+	return (_sqrt(n, 1));
 }
 
 /**
