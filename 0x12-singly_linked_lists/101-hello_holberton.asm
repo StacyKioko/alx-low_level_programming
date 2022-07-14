@@ -1,17 +1,19 @@
-section .text
-global main
+    section .data
+hello:	db "Hello, Holberton",10,0
+format:	db "%s",0
+
+    section .text
+    global main
+    extern printf
 
 main:
-	mov rax, 1
-	mov rdi, 1
-	mov rsi, msg
-	mov rdx, msglen
-	syscall
+    push rbp
+    mov rbp, rsp
 
-	mov rax, 60
-	mov rdi, 0
-	syscall
+    mov rsi, hello
+    mov rdi, format
+    call printf
 
-section .rodata
-	msg: db "Hello, Holberton", 10
-	msglen: equ $ - mg
+    pop rbp
+    mov rax, 0
+    ret
