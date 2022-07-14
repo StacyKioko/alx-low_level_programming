@@ -36,7 +36,7 @@ Write a function that prints all the elements of a list_t list.
 
 
 
-**Solution:** [0-print_list.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x12-singly_linked_lists/0-print_list.c)
+**Solution:** [0-print_list.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x12-singly_linked_lists/0-print_list.c)
 
 
 
