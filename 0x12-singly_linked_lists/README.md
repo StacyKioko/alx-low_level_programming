@@ -80,7 +80,7 @@ Write a function that returns the number of elements in a linked `list_t` list.
 
 * Prototype: `size_t list_len(const list_t *h);`
 
-**Solution:** [1-list_len.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x12-singly_linked_lists/1-list_len.c)
+**Solution:** [1-list_len.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x12-singly_linked_lists/1-list_len.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x12. Singly linked lists$ cat 1-main.c
@@ -133,7 +133,7 @@ Write a function that adds a new node at the beginning of a list_t list.
 * `str` needs to be duplicated
 * You are allowed to use `strdup`
 
-**Solution:** [2-add_node.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x12-singly_linked_lists/2-add_node.c)
+**Solution:** [2-add_node.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x12-singly_linked_lists/2-add_node.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x12. Singly linked lists$ cat 2-main.c
@@ -225,7 +225,7 @@ Write a function that adds a new node at the end of a list_t list.
 * `str` needs to be duplicated
 * You are allowed to use `strdup`
 
-**Solution:** [3-add_node_end.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x12-singly_linked_lists/3-add_node_end.c)
+**Solution:** [3-add_node_end.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x12-singly_linked_lists/3-add_node_end.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x12. Singly linked lists$ cat 3-main.c
@@ -314,7 +314,7 @@ Write a function that frees a `list_t` list.
 
 * Prototype: `void free_list(list_t *head);`
 
-**Solution:** [4-free_list.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x12-singly_linked_lists/4-free_list.c)
+**Solution:** [4-free_list.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x12-singly_linked_lists/4-free_list.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x12. Singly linked lists$ cat 4-main.c
@@ -373,7 +373,7 @@ Write a function that prints `You're beat! and yet, you must allow,\nI bore my h
 
 * You are allowed to use the `printf` function
 
-**Solution:** [100-first.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x12-singly_linked_lists/100-first.c)
+**Solution:** [100-first.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x12-singly_linked_lists/100-first.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x12. Singly linked lists$ cat 100-main.c
@@ -405,7 +405,12 @@ Write a 64-bit program in assembly that prints `Hello, Holberton`, followed by a
 * You are not allowed to use interrupts
 * Your program will be compiled using `nasm` and `gcc`:
 
-**Solution:** [101-hello_holberton.asm](https://github.com/mo
+**Solution:** [101-hello_holberton.asm](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x12-singly_linked_lists/101-hello_holberton.asm)
+
+$ amonkeyprogrammer@ubuntu:~/$ nasm -f elf64 101-hello_holberton.asm && gcc 101-hello_holberton.o -o hello
+$ amonkeyprogrammer@ubuntu:~/$ ./hello
+Hello, Holberton
+$ amonkeyprogrammer@ubuntu:~/$
 =======
 
 
