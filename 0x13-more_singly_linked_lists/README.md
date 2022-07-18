@@ -16,7 +16,7 @@ Write a function that prints all the elements of a listint_t list.
 * Format: see example
 * You are allowed to use `printf`
 
-**Solution:** [0-print_listint.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/0-print_listint.c)
+**Solution:** [0-print_listint.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/0-print_listint.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 0-main.c 
@@ -66,7 +66,7 @@ Write a function that returns the number of elements in a linked `listint_t` lis
 
 * Prototype: `size_t listint_len(const listint_t *h);`
 
-**Solution:** [1-listint_len.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/1-listint_len.c)
+**Solution:** [1-listint_len.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/1-listint_len.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 1-main.c 
@@ -115,7 +115,7 @@ Write a function that adds a new node at the beginning of a `listint_t` list.
 * Prototype: `listint_t *add_nodeint(listint_t **head, const int n);`
 * Return: the address of the new element, or `NULL` if it failed
 
-**Solution:** [2-add_nodeint.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/2-add_nodeint.c)
+**Solution:** [2-add_nodeint.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/2-add_nodeint.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 2-main.c 
@@ -165,7 +165,7 @@ Write a function that adds a new node at the end of a `listint_t` list.
 * Prototype: `listint_t *add_nodeint_end(listint_t **head, const int n);`
 * Return: the address of the new element, or `NULL` if it failed
 
-**Solution:** [3-add_nodeint_end.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/3-add_nodeint_end.c)
+**Solution:** [3-add_nodeint_end.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/3-add_nodeint_end.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 3-main.c 
@@ -214,7 +214,7 @@ Write a function that frees a `listint_t` list.
 
 * Prototype: `void free_listint(listint_t *head);`
 
-**Solution:** [4-free_listint.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/4-free_listint.c)
+**Solution:** [4-free_listint.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/4-free_listint.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 4-main.c 
@@ -279,6 +279,8 @@ Write a function that frees a `listint_t` list.
 
 * Prototype: `void free_listint2(listint_t **head);`
 * The function sets the `head` to `NULL`
+
+**Solution:** [5-free_listint2.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/5-free_listint2.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 5-main.c 
@@ -345,7 +347,7 @@ Write a function that deletes the head node of a `listint_t` linked list, and re
 * Prototype: `int pop_listint(listint_t **head);`
 * if the linked list is empty return `0`
 
-**Solution:** [6-pop_listint.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/6-pop_listint.c)
+**Solution:** [6-pop_listint.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/6-pop_listint.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 6-main.c 
@@ -435,7 +437,7 @@ Write a function that returns the nth node of a listint_t linked list.
 * where `index` is the index of the node, starting at `0`
 * if the node does not exist, return `NULL`
 
-**Solution:** [7-get_nodeint.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/7-get_nodeint.c)
+**Solution:** [7-get_nodeint.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/7-get_nodeint.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 7-main.c 
@@ -499,7 +501,7 @@ Write a function that returns the sum of all the data (n) of a `listint_t` linke
 * Prototype: `int sum_listint(listint_t *head);`
 * if the list is empty, return `0`
 
-**Solution:** [8-sum_listint.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/8-sum_listint.c)
+**Solution:** [8-sum_listint.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/8-sum_listint.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 8-main.c 
@@ -547,7 +549,7 @@ Write a function that inserts a new node at a given position.
 * Returns: the address of the new node, or `NULL` if it failed
 * if it is not possible to add the new node at index `idx`, do not add the new node and return `NULL`
 
-**Solution:** [9-insert_nodeint.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/9-insert_nodeint.c)
+**Solution:** [9-insert_nodeint.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/9-insert_nodeint.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 9-main.c 
@@ -612,7 +614,7 @@ Write a function that deletes the node at index index of a `listint_t` linked li
 * where `index` is the index of the node that should be deleted. Index starts at `0`
 * Returns: ``1`` if it succeeded, ``-1`` if it failed
 
-**Solution:** [10-delete_nodeint.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x13-more_singly_linked_lists/10-delete_nodeint.c)
+**Solution:** [10-delete_nodeint.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/10-delete_nodeint.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x13. More singly linked lists$ cat 10-main.c 
