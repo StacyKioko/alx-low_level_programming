@@ -25,7 +25,7 @@ Write a function that reads a text file and prints it to the POSIX standard outp
 * if `filename` is `NULL` return `0`
 * if `write` fails or does not write the expected amount of bytes, return `0`
 
-**Solution:** [0-read_textfile.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x15-file_io/0-read_textfile.c)
+**Solution:** [0-read_textfile.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x15-file_io/0-read_textfile.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x15. File descriptors and permissions$ cat Requiescat 
@@ -135,7 +135,7 @@ Create a function that creates a file.
 * if `filename` is `NULL` return `-1`
 * if `text_content` is `NULL` create an empty file
 
-**Solution:** [1-create_file.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x15-file_io/1-create_file.c)
+**Solution:** [1-create_file.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x15-file_io/1-create_file.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x15. File descriptors and permissions$ cat 1-main.c
@@ -181,7 +181,7 @@ Write a function that appends text at the end of a file.
 * If `filename` is `NULL` return `-1`
 * If `text_content` is `NULL`, do not add anything to the file. Return `1` if the file exists and `-1` if the file does not exist or if you do not have the required permissions to write the file
 
-**Solution:** [2-append_text_to_file.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x00-hello_world/0-preprocessor)
+**Solution:** [2-append_text_to_file.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x15-file_io/2-append_text_to_file.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x15. File descriptors and permissions$ cat 2-main.c
@@ -235,7 +235,7 @@ Write a program that copies the content of a file to another file.
 * You must read `1,024` bytes at a time from the `file_from` to make less system calls. Use a buffer
 * You are allowed to use `dprintf`
 
-**Solution:** [3-cp.c](https://github.com/monoprosito/holbertonschool-low_level_programming/blob/master/0x15-file_io/3-cp.c)
+**Solution:** [3-cp.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x15-file_io/3-cp.c)
 
 ```
 $ amonkeyprogrammer@ubuntu:~/0x15. File descriptors and permissions$ gcc -Wall -pedantic -Werror -Wextra 3-cp.c -o cp
@@ -275,6 +275,8 @@ Write a program that displays the information contained in the ELF header at the
 * You are allowed to have as many functions as you want in your source file
 * You are allowed to use printf
 * man elf, readelf
+
+**Solution:** [100-elf_header.c](https://github.com/StacyKioko/alx-low_level_programming/blob/master/0x15-file_io/100-elf_header.c)
 
 ```
 julien@ubuntu:~/0x15. File descriptors and permissions$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 100-elf_header.c -o elf_header
