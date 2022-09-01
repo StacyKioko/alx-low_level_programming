@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * dlistint_len - Count number of elements in the list
+ * dlistint_len - count number of elements in the list
  * @h: Head of the linked list
  *
  * Return: Number of nodes (size_t)
